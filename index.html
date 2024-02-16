@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Carta de Presentación</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .modal-dialog {
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="mb-4">Carta de Presentación</h1>
+  <p>Haz clic en el botón para ver la carta de presentación.</p>
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Ver Carta de Presentación
+  </button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Carta de Presentación</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <p>Estimado [Nombre],</p>
+        <p>Me complace presentarle mi carta de presentación. Soy [Tu Nombre], un [tu profesión o descripción breve] con experiencia en [tu campo].</p>
+        <p>Estoy entusiasmado/a por la oportunidad de contribuir y aprender en su empresa [nombre de la empresa]. A lo largo de mi carrera, he demostrado habilidades en [habilidades clave] y he logrado [logros destacados].</p>
+        <p>Espero tener la oportunidad de discutir cómo mi experiencia y habilidades pueden beneficiar a [nombre de la empresa]. Quedo a la espera de la posibilidad de una entrevista para discutir más a fondo mi idoneidad para el puesto.</p>
+        <p>Gracias por considerar mi solicitud.</p>
+        <p>Atentamente,<br>[Tu Nombre]</p>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
