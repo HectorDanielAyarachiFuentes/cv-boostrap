@@ -10,30 +10,16 @@
             audioPlayer.pause();
         }
     });
-     // Para descargar en formato PDF
-     function downloadPDF() {
+    function downloadPDF() {
         // Retraso para cargar contenido dinámico
         setTimeout(() => {
-            const currentDate = new Date().toLocaleDateString();
-            const currentTime = new Date().toLocaleTimeString();
-    
-            const element = document.body; // Cambiado a document.body para capturar toda la página
-    
-            // Agregar la fecha al contenido antes de convertir a PDF
-            const dateElement = document.createElement('div');
-            dateElement.innerHTML = `<p style="text-align: center;">Descargado el: ${currentDate} a las ${currentTime}</p>`;
-            element.appendChild(dateElement);
-    
-            html2pdf(element, {
-                margin: 10,
-                filename: 'CURRICULUM VITAE - Héctor Daniel Ayarachi Fuentes.pdf',
-                image: { type: 'jpeg', quality: 1.0 }, // Ajustar calidad para mantener colores originales
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Cambiado a formato 'a4'
-            }).then(() => {
-                // Eliminar el elemento de la fecha después de la conversión a PDF
-                element.removeChild(dateElement);
-            });
+          const element = window.print(); // Captura toda la página
+          html2pdf(element, {
+            margin: 10,
+            filename: 'mi_curriculum.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a3', orientation: 'portrait' }
+          });
         }, 1000);
-    }
-    
+      }
