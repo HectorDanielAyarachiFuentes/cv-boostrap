@@ -1,4 +1,3 @@
-
     // Obtener referencias a elementos HTML
     var audioPlayer = document.getElementById("audio-player");
     var ramoncito = document.getElementById("ramoncito");
@@ -11,29 +10,30 @@
             audioPlayer.pause();
         }
     });
-
-
      // Para descargar en formato PDF
-
      function downloadPDF() {
-        // Load print-optimized CSS
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'print-style.css';
-        link.media = 'all';
-
-        // Clone the body and apply the print stylesheet
-        var body = document.body.cloneNode(true);
-        body.appendChild(link);
-        
-        var opt = {
-            margin:       [15, 15, 15, 15],
-            filename:     'CV-Hector Daniel-Ayarachi Fuentes.pdf',
-            image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: 2 },
-            jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
-        };
-
-        html2pdf().from(body).set(opt).save();
+        // Retraso para cargar contenido dinámico
+        setTimeout(() => {
+            const currentDate = new Date().toLocaleDateString();
+            const currentTime = new Date().toLocaleTimeString();
+    
+            const element = document.body; // Cambiado a document.body para capturar toda la página
+    
+            // Agregar la fecha al contenido antes de convertir a PDF
+            const dateElement = document.createElement('div');
+            dateElement.innerHTML = `<p style="text-align: center;">Descargado el: ${currentDate} a las ${currentTime}</p>`;
+            element.appendChild(dateElement);
+    
+            html2pdf(element, {
+                margin: 10,
+                filename: 'mi_curriculum.pdf',
+                image: { type: 'jpeg', quality: 1.0 }, // Ajustar calidad para mantener colores originales
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Cambiado a formato 'a4'
+            }).then(() => {
+                // Eliminar el elemento de la fecha después de la conversión a PDF
+                element.removeChild(dateElement);
+            });
+        }, 1000);
     }
+    
