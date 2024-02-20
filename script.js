@@ -26,7 +26,7 @@
     
             html2pdf(element, {
                 margin: 10,
-                filename: 'mi_curriculum.pdf',
+                filename: 'CURRICULUM VITAE - Héctor Daniel Ayarachi Fuentes.pdf',
                 image: { type: 'jpeg', quality: 1.0 }, // Ajustar calidad para mantener colores originales
                 html2canvas: { scale: 2 },
                 jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // Cambiado a formato 'a4'
