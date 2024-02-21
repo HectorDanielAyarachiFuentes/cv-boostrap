@@ -2,6 +2,11 @@
 #ramoncito {
     cursor: pointer;
 }
+
+
+body {
+    margin: 20px; /* Márgenes iniciales */
+  }
 @media (min-width: 320px) {
     /* Para pantallas más grandes que 576px de ancho */
     body {
