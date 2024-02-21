@@ -2,3 +2,12 @@
 #ramoncito {
     cursor: pointer;
 }
+@media (min-width: 320px) {
+    /* Para pantallas más grandes que 576px de ancho */
+    body {
+      margin-left: -10%;
+      margin-right: -10%;
+      overflow-x: hidden; /* Ocultar el desplazamiento horizontal */
+
+    }
+  }
