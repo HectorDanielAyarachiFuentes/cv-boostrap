@@ -80,7 +80,3 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 |:---:|
 | [![Responsive](img-readme/tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | 
 
-[btn-success]:
-
- [[youtube-{16by9}-{KRXdD8bHJrY}]] 
-[[audio-{nombre-del-archivo.extensión}-{Texto descriptivo del audio}]]
