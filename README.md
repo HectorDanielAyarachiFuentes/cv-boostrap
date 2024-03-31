@@ -82,31 +82,9 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 
 
-<style>
 
-  #reproducir-audio {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-  }
-
-  audio {
-    display: none;
-  }
-</style>
-</head>
-<body>
-
-<button id="reproducir-audio">Reproducir Audio</button>
-<audio id="mi-audio" controls>
+<button id="reproducir-audio" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Reproducir Audio</button>
+<audio id="mi-audio" controls style="display: none;">
     <source src="Ven-a-Mí.mp3" type="audio/mpeg">
 </audio>
 
