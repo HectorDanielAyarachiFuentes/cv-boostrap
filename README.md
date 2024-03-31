@@ -1,24 +1,51 @@
-<h1 align="center">
-  <a href="https://hectordanielayarachifuentes.github.io/cv-boostrap/" title="MI-CV">
-    <img alt="MI-CV" src="img-readme/cv-animacion.gif" width="200px" height="200px" />
+<style>
+  body {
+    text-align: center;
+  }
+
+  audio {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<h1>
+  <a href="https://hectordanielayarachifuentes.github.io/cv-boostrap/" title="MI-CV" id="enlace-cv">
+    <img id="gif-cv" alt="MI-CV" src="img-readme/cv-animacion.gif" width="200px" height="200px" />
   </a>
   <br />
-   Currículum Vitae
-     <br />
-   Héctor Daniel Ayarachi Fuentes
+  Currículum Vitae
+  <br />
+  Héctor Daniel Ayarachi Fuentes
 </h1>
 
+<audio id="mi-audio" controls>
+    <source src="Ven-a-Mí.mp3" type="audio/mpeg">
+    Tu navegador no admite la reproducción de audio.
+</audio>
 
+<script>
+  const enlaceCV = document.getElementById('enlace-cv');
+  const gifCV = document.getElementById('gif-cv');
+  const miAudio = document.getElementById('mi-audio');
 
+  enlaceCV.addEventListener('click', (event) => {
+    event.preventDefault(); // Evitar que el enlace se abra
 
+    miAudio.play();
+  });
 
+  gifCV.addEventListener('click', () => {
+    miAudio.play();
+  });
+</script>
 
 
 
 <p align="center">
 Contactos
 </p>
-
 
 
 
@@ -79,4 +106,8 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 | Tablet |
 |:---:|
 | [![Responsive](img-readme/tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | 
+
+
+
+
 
