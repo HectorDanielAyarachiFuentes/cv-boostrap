@@ -83,8 +83,19 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 
 <style>
-  body {
+
+  #reproducir-audio {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
   }
 
   audio {
@@ -94,33 +105,16 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 </head>
 <body>
 
-<h1>
-  <a href="https://hectordanielayarachifuentes.github.io/cv-boostrap/" title="MI-CV" id="enlace-cv">
-    <img id="gif-cv" alt="MI-CV" src="img-readme/cv-animacion.gif" width="200px" height="200px" />
-  </a>
-  <br />
-  Currículum Vitae
-  <br />
-  Héctor Daniel Ayarachi Fuentes
-</h1>
-
+<button id="reproducir-audio">Reproducir Audio</button>
 <audio id="mi-audio" controls>
     <source src="Ven-a-Mí.mp3" type="audio/mpeg">
-    Tu navegador no admite la reproducción de audio.
 </audio>
 
 <script>
-  const enlaceCV = document.getElementById('enlace-cv');
-  const gifCV = document.getElementById('gif-cv');
+  const botonReproducir = document.getElementById('reproducir-audio');
   const miAudio = document.getElementById('mi-audio');
 
-  enlaceCV.addEventListener('click', (event) => {
-    event.preventDefault(); // Evitar que el enlace se abra
-
-    miAudio.play();
-  });
-
-  gifCV.addEventListener('click', () => {
-    miAudio.play();
+  botonReproducir.addEventListener('click', () => {
+      miAudio.play();
   });
 </script>
