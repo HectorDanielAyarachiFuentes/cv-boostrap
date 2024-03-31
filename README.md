@@ -88,3 +88,8 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
     Tu navegador no admite la reproducción de audio.
 </audio>
 
+
+<audio controls>
+<source src="reprex.wav" type="audio/wav">
+</audio>
+<audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="x-devonthink-item://9CFD5BD2-EB05-41EB-83EB-88A666381953">Your browser does not support the audio tag.</audio>
