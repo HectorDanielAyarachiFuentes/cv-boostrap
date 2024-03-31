@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://hectordanielayarachifuentes.github.io/cv-boostrap/" title="MI-CV">
-    <img alt="MI-CV" src="img-readme\cv-animacion.gif" width="200px" height="200px" />
+    <img alt="MI-CV" src="img-readme/cv-animacion.gif" width="200px" height="200px" />
   </a>
   <br />
    Currículum Vitae
@@ -66,7 +66,7 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 | Movil | Notebook |
 |:---:|:---:|
-| [![Responsive](img-readme\mobile.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme\notebook.gif)](https://hectordanielayarachifuentes.github.io/CV/) |
+| [![Responsive](img-readme/mobile.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme/notebook.gif)](https://hectordanielayarachifuentes.github.io/CV/) |
 
 #### Vista previa del CV  
 
@@ -74,6 +74,6 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 | Tablet | Vista completa |
 |:---:|:---:|
-| [![Responsive](img-readme\tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme\cv-completo.png)](https://hectordanielayarachifuentes.github.io/CV/) |
+| [![Responsive](img-readme/tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme\cv-completo.png)](https://hectordanielayarachifuentes.github.io/CV/) |
 
 
