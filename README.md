@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="img-readme\Diseño.gif" width="200px" height="200px" />
+  <a href="https://hectordanielayarachifuentes.github.io/cv-boostrap/" title="MI-CV">
+    <img alt="MI-CV" src="img-readme\cv-animacion.gif" width="200px" height="200px" />
   </a>
   <br />
    Currículum Vitae
@@ -66,7 +66,7 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 | Movil | Notebook |
 |:---:|:---:|
-| [![Responsive](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/Celular.png?raw=true)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/Notebook.png?raw=true)](https://hectordanielayarachifuentes.github.io/CV/) |
+| [![Responsive](img-readme\mobile.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme\notebook.gif)](https://hectordanielayarachifuentes.github.io/CV/) |
 
 #### Vista previa del CV  
 
@@ -74,6 +74,6 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 | Tablet | Vista completa |
 |:---:|:---:|
-| [![Responsive](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/tablet.png?raw=true)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](https://github.com/HectorDanielAyarachiFuentes/CURRICULUM-VITAE-HECTOR-DANIEL-AYARACHI-FUENTES/blob/main/ImagenesReadme/totalcv.png?raw=true)](https://hectordanielayarachifuentes.github.io/CV/) |
+| [![Responsive](img-readme\tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme\cv-completo.png)](https://hectordanielayarachifuentes.github.io/CV/) |
 
 
