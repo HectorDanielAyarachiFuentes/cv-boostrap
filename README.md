@@ -72,8 +72,10 @@ Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
 Podes verlo en [PDF](https://hectordanielayarachifuentes.github.io/CV/)
 
-| Tablet | Vista completa |
-|:---:|:---:|
-| [![Responsive](img-readme/tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | [![Responsive](img-readme/cv-completo.png)](https://hectordanielayarachifuentes.github.io/CV/) |
+| Vista completa |
+|:---:|
+[![Responsive](img-readme/cv-completo.png)](https://hectordanielayarachifuentes.github.io/CV/) |
 
-
+| Tablet |
+|:---:|
+| [![Responsive](img-readme/tablet.gif)](https://hectordanielayarachifuentes.github.io/CV/)  | 
