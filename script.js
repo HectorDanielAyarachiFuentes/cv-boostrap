@@ -26,3 +26,24 @@
         // Capturar toda la página para descargar en formato PDF
         window.print();
     }
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const calcularEdad = (fechaNacimiento) => {
+            const hoy = new Date();
+            const nacimiento = new Date(fechaNacimiento);
+            let edad = hoy.getFullYear() - nacimiento.getFullYear();
+            const mes = hoy.getMonth() - nacimiento.getMonth();
+            const dia = hoy.getDate() - nacimiento.getDate();
+            if (mes < 0 || (mes === 0 && dia < 0)) {
+                edad--; // Aún no ha cumplido años este año
+            }
+            return edad;
+        };
+    
+        const fechaNacimiento = "1990-11-30";
+        const edad = calcularEdad(fechaNacimiento);
+    
+        document.getElementById("edad").textContent = edad;
+    });
+    
